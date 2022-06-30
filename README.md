@@ -2,6 +2,10 @@
 The code takes an input a 9*9 grid
 An empty cell is indicated by value 0 in it
 
+The code is written in c++ using the idea of recursion and back tracking
+At every empty cell we fill it with a possible number and check if we will be able to complete the grid with this value in that cell
+This is done for all possible values at each empty cell
+
 sample input :
 
 5 3 0 0 7 0 0 0 0
